@@ -1,0 +1,111 @@
+html,
+body {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Layout*/
+
+.container {
+    width: 600px;
+}
+
+.main-info {
+    margin: 20px 0;
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
+
+.dog-info-section {
+    height: 50rem;
+    border-radius: 15px;
+    margin: 0 5px;
+    background-image: url("img/dog-teddy.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+.button-section {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+/*Typography*/
+
+h1,
+p {
+    text-align: left;
+    color: white;
+    line-height: 1rem;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+p {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+
+/*Images*/
+
+.icon,
+.button-img {
+    height: 2rem;
+}
+
+.button-img {
+    margin: 20px 0;
+}
+
+.like-icon {
+    width: 17rem;
+    transform: rotate(-30deg);
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+
+/*Buttons*/
+
+.like-button {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 100px;
+    box-shadow: 0px 10px 20px #E9E9EA;
+}
+
+.nope-button,
+.yep-button {
+    background-color: white;
+}
+
+.nope-button:hover,
+ :focus {
+    background-color: #FFE7EF;
+}
+
+.yep-button:hover,
+ :focus {
+    background-color: #DBFFF4;
+}

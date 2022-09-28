@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <title>Tindog</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-info container">
+        <section>
+            <div class="header-info">
+                <img class="icon" src="img/icon-profile.png">
+                <img class="icon" src="img/logo.png">
+                <img class="icon" src="img/icon-chat.png">
+            </div>
+        </section>
+        <main class="container">
+            <section class="dog-info-section" id="dog-info">
+                <img src="img/badge-like.png" class="like-icon">
+                <div id="dog-text">
+                    <h1 id="dog-name-age">${name},${age}</h1>
+                    <p id="dog-bio">"How you doin?"</p>
+                </div>
+            </section>
+
+            <section class="button-section">
+                <div id="no-button" class="like-button nope-button">
+                    <img src="img/icon-cross.png" class="button-img">
+                </div>
+                <div id="yes-button" class="like-button yep-button">
+                    <img src="img/icon-heart.png" class="button-img">
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="/index.js" type="module"></script>
+</body>
+
+</html>
